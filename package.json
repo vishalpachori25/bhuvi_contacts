@@ -1,9 +1,9 @@
 {
-  "name": "vite-react-typescript-starter",
+  "name": "bhuvi_utility_contacts",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.3.0",
   "type": "module",
-  "homepage": "https://vishalpachori25.github.io/bhuvi_contacts",
+  "homepage": "https://vishalpachori25.github.io/bhuvi_contacts/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
