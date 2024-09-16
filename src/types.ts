@@ -5,8 +5,9 @@ export interface Type{
 }
 
 export interface User{
-    id:Int16Array;
+    id:number;
     name: string;
     phoneNumber: string;
     description? : string;
+    type: string;
 }

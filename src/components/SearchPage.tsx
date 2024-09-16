@@ -11,13 +11,14 @@ import {
 } from "@mui/joy";
 import IconButton from "@mui/joy/IconButton";
 
-import { contactList, typeList } from "../constants";
+import { contactList } from "../constants";
 import React from "react";
 import { Call, Message } from "@mui/icons-material";
 
 function SearchUI() {
   const [value, setValue] = React.useState<String | null>("");
   const [selectedType, setSelectedType] = React.useState("");
+  const typeList = Array.from(new Set(contactList.map((x) => x.type)));
   return (
     <FormControl id="controllable-states-demo">
       <Autocomplete
