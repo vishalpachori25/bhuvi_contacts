@@ -13,7 +13,7 @@ import IconButton from "@mui/joy/IconButton";
 
 import { contactList } from "../constants";
 import React from "react";
-import { Call, Message } from "@mui/icons-material";
+import { Call, WhatsApp } from "@mui/icons-material";
 
 function SearchUI() {
   const [value, setValue] = React.useState<String | null>("");
@@ -64,7 +64,7 @@ function SearchUI() {
                         component="a"
                         href={"https://wa.me/"+type.phoneNumber}
                       >
-                        <Message />
+                        <WhatsApp />
                       </IconButton>
                     </Stack>
                   </Card>
