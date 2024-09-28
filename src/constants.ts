@@ -175,5 +175,19 @@ export const contactList: Array<User> = [
     name: "Yasodha_Househelp Bhuvi",
     phoneNumber: "+91 87541 99155",
     description: ""
+  },
+  {
+    id: 23,
+    type: "Pigeon Net",
+    name: "Chittibabu pigeon Net",
+    phoneNumber: "+91 87541 99155",
+    description: ""
+  },
+  {
+    id: 24,
+    type: "Tempo Traveller - Taxi",
+    name: "Mahadev Taxi",
+    phoneNumber: "+91 9686261746",
+    description: ""
   }
 ];
